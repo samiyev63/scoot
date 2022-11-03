@@ -1,0 +1,13 @@
+
+@mixin button($color, $bg-color, $font-weight) {
+    border: 3px solid $bg-color;
+    font-weight: $font-weight;
+    font-size: 15px;
+    background-color: #FCB72B;
+    line-height: 25px;
+    text-align: center;
+    color: $color;
+    padding: 14px 39px;
+    font-family: 'Space Mono', monospace;
+  }
+  

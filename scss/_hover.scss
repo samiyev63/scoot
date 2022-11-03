@@ -1,0 +1,12 @@
+.nav-list-item  a:hover {
+    color: #fcb72b;
+    transition: all 0.3s;
+  }
+  .navbar-btn:hover {
+    @include button( black,#fcb72b, 700);
+    transition: all 0.3s;
+  }
+ .footer-list-item a:hover {
+    color: #fcb72b;
+    transition: all 0.3s;
+  }

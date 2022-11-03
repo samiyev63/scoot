@@ -1,0 +1,46 @@
+@media (max-width: 767px) {
+    .logo-wrapper {
+      z-index:9999;
+    }
+    .nav-list {
+      position: absolute;
+      top: 0;
+      left: -10%;
+      width: 60%;
+      padding-top: 140px;
+      flex-direction: column;
+     background: #333A44;
+      height: 200vh;
+      transform: translateX(-117%);
+      transition: all 0.5s ease-in;
+    
+    }
+  
+    .nav-list-item a {
+      color: #fff;
+      margin: 0 auto;
+    }
+    
+    .navbar-btn {
+      display: none;
+    }
+  
+    .mobile__burger {
+      display: block;
+      transition: all 0.5s ease;
+    }
+  
+    #menu:checked ~ .nav .nav-list  {
+      transform: translateX(-10%);
+    }
+  
+    #menu:checked ~ .mobile__burger {
+      transform: rotate(180deg);
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .nav-list {
+      gap: 25px;
+    }
+}

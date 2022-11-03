@@ -1,0 +1,55 @@
+header {
+  padding: 10px 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  background-color: white;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: block;
+}
+
+.nav {
+  flex-grow: 1;
+  gap: 20px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px 30px;
+  margin-left: 53px;
+}
+
+.nav-list-item a {
+  text-decoration: none;
+  color: #373737;
+  transition: all 0.2s ease-in;
+  padding-bottom: 13px;
+}
+
+#menu {
+  appearance: none;
+  position: absolute;
+}
+
+.mobile__burger {
+  display: none;
+}
+
+// @media queries
+
+.navbar-btn {
+  @include button(white, #fcb72b, 700);
+}

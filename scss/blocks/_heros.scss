@@ -1,0 +1,58 @@
+.scooter {
+//   width: 100vw;
+//   height: 100vh;
+  background-image: url(../imgs/Bitmap.png);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.663);
+  background-blend-mode: multiply;
+
+}
+
+.scooter-title {
+  color: #fff;
+  padding-top: 170px;
+  margin-left: 85px;
+}
+
+.scooter-title h2 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  width: 600px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+}
+
+.scooter-title p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: "Lexend Deca", sans-serif;
+    width: 457px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+}
+
+.scooter-btn {
+  border: 3px solid #fcb72b;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #fcb72b;
+  padding: 14px 39px;
+  font-family: "Space Mono", monospace;
+  margin: 21px 0;
+  margin-left: 150px;
+}
+
+.lines {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 550px;
+  top: -130px;
+  left: -224px;
+}
